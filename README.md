@@ -25,6 +25,15 @@ pip install -r requirements.txt
 3. Jalankan kode Python:
 python intrusion_detection_system.py
 
+### Model Pre-trained
+Repositori ini menyediakan model pre-trained `ids_model.h5` yang telah dilatih dengan dataset NSL-KDD. sehingga dengan adanya model ini dapat:
+- Langsung menjalankan proses evaluasi tanpa perlu melatih model dari awal
+- Mendapatkan hasil yang sesuai dengan yang ditunjukkan dalam laporan
+
+Untuk menggunakan model pre-trained:
+1. Pastikan file `ids_model.h5` ada di direktori yang sama dengan kode
+2. Kode secara otomatis akan memuat model jika file tersebut ditemukan
+
 ## Fitur
 - Preprocessing data NSL-KDD
 - Model deep learning menggunakan TensorFlow/Keras
