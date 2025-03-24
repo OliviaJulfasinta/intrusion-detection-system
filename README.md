@@ -10,7 +10,7 @@ Program ini menggunakan dataset NSL-KDD yang diunduh otomatis dari:
 ## Cara menggunakan
 
 ### Menggunakan Google Colab
-1. Buka file [Intrusion_Detection_System (1).ipynb](Intrusion_Detection_System (1).ipynb) di GitHub 
+1. Buka file [Intrusion_Detection_System.ipynb](Intrusion_Detection_System.ipynb) di GitHub 
 2. Klik tombol "Open in Colab" di bagian atas notebook atau buka [link Colab langsung](https://colab.research.google.com/drive/1_VQwx-5Fdk9tlSw4A4DKWbcD9_658Ga_?usp=sharing)
 3. Jalankan semua sel kode secara berurutan
 
@@ -23,7 +23,7 @@ cd intrusion-detection-system
 pip install -r requirements.txt
 
 3. Jalankan kode Python:
-python intrusion_detection_system (1).py
+python intrusion_detection_system.py
 
 ## Fitur
 - Preprocessing data NSL-KDD
